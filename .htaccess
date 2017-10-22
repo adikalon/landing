@@ -1,0 +1,23 @@
+# Кодировка
+AddDefaultCharset UTF-8
+
+# Не подставлять слэш в конце директорий
+DirectorySlash Off
+
+# Запрещаем просмотр содержимого папки
+Options All -Indexes
+
+# 404
+ErrorDocument 403 /404
+
+# ЧПУ
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} (.*)
+RewriteCond %{REQUEST_URI} /$ [NC]
+RewriteRule ^(.*)(/)$ $1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} !\.(ttf|ttc|otf|eot|woff|woff2|css|js|jpg|jpeg|gif|png)$ [NC]
+RewriteCond %{REQUEST_URI} !.{1}robots\.txt$ [NC]
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]

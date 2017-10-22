@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.lp-panel {
+	height: 30px;
+	background-color: #23282d;
+	font-family: verdana;
+	color: #eee;
+	font-size: 13px;
+	line-height: 30px;
+	padding: 0 10px 0 10px;
+}
+
+.lp-panel-li {
+	display: inline;
+}
+
+.lp-panel-icon {
+	color: #9ca1a6;
+	font-size: 15px !important;
+}
+
+.lp-panel a {
+	text-decoration: none;
+	color: #eee;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.lp-panel a:hover {
+	background-color: #32373c;
+	color: #00b9eb;
+}
+
+.lp-panel a:hover .lp-panel-icon {
+	color: #00b9eb;
+}
+
+.lp-panel-left {
+	float: left;
+}
+
+.lp-panel-right {
+	float: right;
+}
+
+.lp-panel-neo {
+	background-color: #d54e21;
+	color: #eee;
+	border-radius: 20px;
+	padding: 1px 5px 1px 5px;
+	top: 0;
+	right: 0;
+}
+
+@media only screen and (max-width: 650px) {
+	.lp-panel {
+		height: 50px;
+	}
+	
+	.lp-panel-hide {
+		display: none;
+	}
+	
+	.lp-panel {
+		line-height: 50px;
+	}
+	
+	.lp-panel-icon {
+		font-size: 25px !important;
+	}
+	
+	.lp-panel a {
+		padding: 0 20px 0 20px;
+	}
+	
+	.lp-panel-right {
+		float: left;
+	}
+}
+
+/* started lp styles */

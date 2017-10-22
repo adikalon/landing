@@ -1,0 +1,138 @@
+html, body {
+	background-color: #fdfdfd;
+}
+
+.main-block {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+/* auth block */
+
+.auth-form {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.auth-button {
+	margin: 0 !important;
+}
+
+.auth-enter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/* requests page */
+
+.label-neo {
+	right: 5px !important;
+	top: 5px !important;
+}
+
+.pagi-active {
+	cursor: default;
+}
+
+.answer-form {
+	display: inline;
+}
+
+.answer-login {
+	font-weight: bold;
+}
+
+.table-td {
+	width: 1px;
+	white-space: nowrap;
+}
+
+.table-button {
+	width: 1px;
+	text-align: center !important;
+}
+
+.req-total {
+	background-color: #fdfdfd;
+}
+
+.req-total-txt {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+/* setings page */
+
+.block-background {
+	background-color: #fcfcfc !important;
+}
+
+.textarea-padding {
+	padding-left: 38px !important;
+}
+
+.checkbox-ctrl {
+	padding-top: 30px;
+}
+
+.checkbox-mail {
+	padding-top: 30px;
+}
+
+.block-padding {
+	margin-top: 50px !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.indentation {
+		margin-top: 10px !important;
+	}
+	
+	.checkbox-mail {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+
+/* all adaptive */
+
+@media only screen and (max-width: 900px) {
+	html, body {
+		padding: 0 5px 0 5px;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	.menu-text {
+		display: none;
+	}
+	
+	.first-last {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.prev-next {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 1150px) {
+	.main-block {
+		padding-bottom: 15px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.main-block {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

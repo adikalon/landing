@@ -1,0 +1,10 @@
+<?php
+session_start();
+require('lp-app/database.php');
+require('lp-app/config.php');
+require('lp-app/functions.php');
+require('lp-app/pages.php');
+require('lp-app/router.php');
+require('lp-app/allpages.php');
+require($router['section'].'/pages/models/'.$router['page'].'.php');
+require($router['section'].'/index.php');

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /
+Allow: /$
+Allow: /lp-site/*.js
+Allow: /lp-site/*.css
+Allow: /lp-site/img/lp-*.png
+Allow: /lp-site/img/lp-*.jpg
+Allow: /lp-site/img/lp-*.jpeg
+Allow: /lp-site/img/lp-*.gif
+
+Host: landing.loc
